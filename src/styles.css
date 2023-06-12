@@ -1,3 +1,10 @@
+:root {
+  --branding-color: #6b62ff;
+  --secondary-color: #faf7fe;
+  --hedings-font: "Playfair Display", serif;
+  --content-font: "Poppins", sans-serif;
+}
+
 h1 {
   font-family: "Playfair Display", serif;
 }
