@@ -11,6 +11,16 @@ h3 {
   font-family: var(--headings-font);
 }
 
+p {
+  font-family: var(--content-font);
+  font-size: 16px;
+  line-height: 2;
+}
+
+.about-project {
+  padding: 120px 60px;
+}
+
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
@@ -42,4 +52,29 @@ h3 {
 
 .hero .btn-contact:hover {
   background-color: var(--branding-color);
+}
+
+.container h2 {
+  font-size: 64px;
+}
+
+.container p {
+  font-size: 16px;
+  font-family: var(--content-font);
+  line-height: 1.7;
+}
+
+.container .btn-applink {
+  color: var(--branding-color);
+  font-family: var(--content-font);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.container .btn-applink:hover {
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
 }
