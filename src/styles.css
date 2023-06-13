@@ -78,3 +78,19 @@ p {
   border: 1px solid var(--branding-color);
   border-radius: 4px;
 }
+
+@media (max-width: 960px) {
+  .hero {
+    padding: 60px 20px;
+  }
+  .hero h1 {
+    font-size: 48px;
+  }
+  .about-project {
+    padding: 0;
+    text-align: center;
+  }
+  .container h2 {
+    font-size: 42px;
+  }
+}
